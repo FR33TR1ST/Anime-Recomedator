@@ -1,7 +1,7 @@
 ﻿import random
 import pandas as pd
 #List of animes
-Series = pd.read_csv('C:/Users/gaspa/Desktop/Anime_recomendation/all_animes.csv')
+Series = pd.read_csv('all_animes.csv')
 GENRES = ["Thriller", "Supernatural", "Sports", "Slice of Life", "Shonen", "Shojo", "Seinen", "Sci-fi", "Romance", "Music","Post Apocalyptic", "Mistery", "Mecha", "Magical Girls", "Isekai", "Idols", "Historical", "Harem", "Fantasy", "Drama", "Comedy", "Adventure", "Action"]
 expressions= [['idk','show','me','something'],['whatever'],['what','ever'],['i','dont','know'],['show','me','something']]
 excluded_words= ['anime', 'animes']
